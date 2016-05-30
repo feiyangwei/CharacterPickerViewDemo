@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 常用颜色值 -->
+    <color name="white40">#66FFFFFF</color>
+    <color name="white60">#99FFFFFF</color>
+    <color name="white70">#B3FFFFFF</color>
+    <color name="white80">#CCFFFFFF</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_10">#19000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_25">#40000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_43">#6E000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="lemonyellow">#FFFACD</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="grayslate">#708090</color>
+    <color name="lightblue">#0083FF</color>
+    <color name="under_line">#E1E1E1</color>
+
+
+    <!-- 公共颜色 -->
+    <color name="transparent">#00000000</color>
+    <color name="blue_color">#1B95EA</color>
+
+    <color name="j_wheel_timebtn_nor">#54a3fa</color>
+    <color name="j_wheel_timebtn_pre">#CCCCCC</color>
+
+</resources>
