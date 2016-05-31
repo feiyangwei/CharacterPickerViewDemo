@@ -147,7 +147,7 @@ public class LoopView extends View {
         Rect rect = new Rect();
         for (int i1 = 0; i1 < arrayList.size(); i1++) {
             // String s1 = arrayList.get(i1).getLocationName();
-            String s1 = "西藏自治区内蒙古";
+            String s1 = "西藏自治区内蒙古";//设置宽度
             paintB.getTextBounds(s1, 0, s1.length(), rect);
             int j1 = rect.width();
             if (j1 > g) {

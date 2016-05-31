@@ -3,6 +3,7 @@ package com.weifeiyang.characterpickerviewdemo;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -32,12 +33,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void btnClick() {
-        OptionsWindowHelper.setStartTime("");
-        OptionsWindowHelper.setEndTime("");
+        OptionsWindowHelper.setStartTime("");//设置起始日期
+        OptionsWindowHelper.setEndTime("");//设置结束日期
         window = OptionsWindowHelper.builder(mContext, "", "time", new OptionsWindowHelper.OnOptionsSelectListener() {
             @Override
             public void onOptionsSelect(LocationInfo year, LocationInfo month, LocationInfo day) {
-                //showTime(year, month, day);
+                //showTime(year, monty);
+                Log.e("data===", year.getLocationCode() + "===" + month.getLocationCode() + "===" + day.getLocationCode());
             }
         });
         window.showAtLocation(findViewById(R.id.rl_layout), Gravity.BOTTOM, 0, 0);

@@ -28,6 +28,14 @@ public class OptionsWindowHelper {
     private OptionsWindowHelper() {
     }
 
+    /**
+     * 初始化
+     * @param mContext
+     * @param positionStatus 联动效果，year，month
+     * @param from "time"-日期，"time_formate"-日期格式
+     * @param listener
+     * @return
+     */
     public static CharacterPickerWindow builder(Context mContext, String positionStatus, String from, final OnOptionsSelectListener listener) {
         //选项选择器
         CharacterPickerWindow mOptions = new CharacterPickerWindow(mContext);
